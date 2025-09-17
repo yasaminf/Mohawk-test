@@ -1,10 +1,11 @@
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+//This method counts the No. of vowels in the input string
 public class Main {
     public static int countAllVowels(String input){
         int count = 0;
 
-        for (int i = 1; i < input.length(); i++){
+        for (int i = 0; i < input.length(); i++){
             char c = input.charAt(i);
             switch(c) {
                 case 'a':
